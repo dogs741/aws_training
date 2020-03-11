@@ -3,8 +3,7 @@ os: linux
 files:
   #將取下的 war 檔案搬動到 tomcat8 的 webapp 根目錄下
   - source: ROOT.war
-    destination: /var/lib/tomcat8/webapps/
-
+    destination: /var/lib/tomcat8/webapps
 hooks:
   ApplicationStop:
     - location: scripts/stop.sh
