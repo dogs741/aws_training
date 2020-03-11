@@ -20,7 +20,7 @@ import idv.villebez.model.OffsetPagingModel;
 public class UserDAO extends BaseDAO {
 
 	protected UserDAO() {
-		super("ap-northeast-1");
+		super("us-east-2");
 	}
 
 	public List<User> getAll() {
